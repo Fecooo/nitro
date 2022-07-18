@@ -1,0 +1,33 @@
+body {
+    background-color: wheat;
+}
+p {
+    text-align: center;
+    font-size: 0.75cm;
+}
+button {
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    transition-duration: 0.75s;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#progressBar {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+#remain {
+    font-size: 30px;
+    margin-top: -42px;
+    text-align: center;
+}

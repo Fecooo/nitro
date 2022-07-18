@@ -30,16 +30,16 @@ function copyToClipboard() {
 	document.body.removeChild(el)
 }
 
-var timeleft = 60;
+var timeleft = 30;
 var downloadTimer = setInterval(function(){
   if(timeleft <= 0){
     clearInterval(downloadTimer);
   }
   document.getElementById("remain").innerHTML = timeleft-1;
-  document.getElementById("progressBar").value = 61 - timeleft;
+  document.getElementById("progressBar").value = 31 - timeleft;
   timeleft -= 1;
   if (timeleft == 0) {
-    	timeleft = 60;
+    	timeleft = 30;
 		main();
   }
 }, 1000);
